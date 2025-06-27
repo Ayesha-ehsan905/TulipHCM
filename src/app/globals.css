@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --font-nuito: Nunito;
+  --font-esrebond: ES Rebond;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -14,13 +16,94 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-family: var(--font-esrebond), Helvetica, sans-serif;
+}
+
+/* font family Nuniton */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/font/Nunito-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* font family ES Rebond */
+@font-face {
+  font-family: "ES Rebond";
+  src: url("/font/ESRebondGrotesqueTRIAL-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ES Rebond";
+  src: url("/font/ESRebondGrotesqueTRIAL-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ES Rebond";
+  src: url("/font/ESRebondGrotesqueTRIAL-Semibold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ES Rebond";
+  src: url("/font/ESRebondGrotesqueTRIAL-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ES Rebond";
+  src: url("/font/ESRebondGrotesqueTRIAL-Extrabold.otf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
