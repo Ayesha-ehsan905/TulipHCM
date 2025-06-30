@@ -4,27 +4,30 @@
   --font-nuito: Nunito;
   --font-esrebond: ES Rebond;
   --background: #ffffff;
-  --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #29282A;
+  --color-orange: #F87315;
+  --color-tulip-blue: #47A3FF;
+
+  /* gradients */
+  --circle-gradient: 135deg, rgba(22, 161, 182, 0) 0%, #16A1B6 100%;
+
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #ededed;
   }
 }
 
 body {
   background: var(--background);
-  color: red;
-  font-family: var(--font-esrebond), Helvetica, sans-serif;
+  color: var(--color-primary);
+  font-family: var(--font-esrebond);
 }
 
 /* font family Nuniton */
@@ -38,35 +41,35 @@ body {
 
 @font-face {
   font-family: "Nunito";
-  src: url("/font/Nunito-Regular.ttf") format("truetype");
+  src: url("/font/Nunito/Nunito-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("/font/Nunito-Medium.ttf") format("truetype");
+  src: url("/font/Nunito/Nunito-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("/font/Nunito-SemiBold.ttf") format("truetype");
+  src: url("/font/Nunito/Nunito-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("/font/Nunito-Bold.ttf") format("truetype");
+  src: url("/font/Nunito/Nunito-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Nunito";
-  src: url("/font/Nunito-ExtraBold.ttf") format("truetype");
+  src: url("/font/Nunito/Nunito-ExtraBold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -75,35 +78,35 @@ body {
 /* font family ES Rebond */
 @font-face {
   font-family: "ES Rebond";
-  src: url("/font/ESRebondGrotesqueTRIAL-Regular.otf") format("truetype");
+  src: url("/font/ES Rebond/ESRebondGrotesqueTRIAL-Regular.otf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ES Rebond";
-  src: url("/font/ESRebondGrotesqueTRIAL-Medium.otf") format("truetype");
+  src: url("/font/ES Rebond/ESRebondGrotesqueTRIAL-Medium.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ES Rebond";
-  src: url("/font/ESRebondGrotesqueTRIAL-Semibold.otf") format("truetype");
+  src: url("/font/ES Rebond/ESRebondGrotesqueTRIAL-Semibold.otf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ES Rebond";
-  src: url("/font/ESRebondGrotesqueTRIAL-Bold.otf") format("truetype");
+  src: url("/font/ES Rebond/ESRebondGrotesqueTRIAL-Bold.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ES Rebond";
-  src: url("/font/ESRebondGrotesqueTRIAL-Extrabold.otf") format("truetype");
+  src: url("/font/ES Rebond/ESRebondGrotesqueTRIAL-Extrabold.otf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
