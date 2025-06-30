@@ -4,12 +4,13 @@ import { type VariantProps, cva } from "class-variance-authority";
 import * as React from "react";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-[3rem] text-[16px] font-semibold ",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-[3rem] text-[16px] font-semibold  leading-[100%]",
   {
     variants: {
       variant: {
         filled: "bg-tulip-blue text-white",
         outline: "border-2 border-solid border-orange",
+        blueFilled: "border-2 border-solid border-tulip-blue ",
       },
       size: {
         default: "h-9 px-4 py-2",

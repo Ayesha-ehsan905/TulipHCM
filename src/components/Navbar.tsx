@@ -7,17 +7,17 @@ const Navbar = () => {
   return (
     <Container>
       <div className="relative">
-        <div className="absolute top-[-230px] left-[-40px] w-[922px] h-[922px]  rounded-[461px] bg-linear-(--circle-gradient) opacity-[0.06]" />
+        <div className="absolute top-[-230px] left-[-180px] w-[922px] h-[922px]  rounded-[461px] bg-linear-(--circle-gradient) opacity-[0.06]" />
       </div>
 
       <div className="flex flex-row justify-between mx-20 my-5 z-10">
-        <div>
+        <div className="w-[145px] h-[50px]">
           <Image
             src="/images/Logo.png"
-            alt="hero-image"
-            width={100}
-            height={100}
-            className="h-full w-full"
+            alt="Company logo"
+            width={144}
+            height={50}
+            className="w-full h-full object-contain"
           />
         </div>
 

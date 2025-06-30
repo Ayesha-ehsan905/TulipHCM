@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --font-nuito: Nunito;
-  --font-esrebond: ES Rebond;
+  --font-nuito: Nunito, Arial, Helvetica, sans-serif;
+  --font-esrebond: ES Rebond, Arial, Helvetica, sans-serif;
   --background: #ffffff;
 }
 
@@ -11,6 +11,7 @@
   --color-primary: #29282A;
   --color-orange: #F87315;
   --color-tulip-blue: #47A3FF;
+
 
   /* gradients */
   --circle-gradient: 135deg, rgba(22, 161, 182, 0) 0%, #16A1B6 100%;
@@ -27,7 +28,7 @@
 body {
   background: var(--background);
   color: var(--color-primary);
-  font-family: var(--font-esrebond);
+  font-family: var(--font-esrebond), Arial, Helvetica, sans-serif;
 }
 
 /* font family Nuniton */
@@ -109,4 +110,8 @@ body {
   src: url("/font/ES Rebond/ESRebondGrotesqueTRIAL-Extrabold.otf") format("truetype");
   font-weight: 900;
   font-style: normal;
+}
+
+.font-nunito {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
 }
