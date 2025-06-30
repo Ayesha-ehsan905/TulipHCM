@@ -13,7 +13,7 @@ const HeroSection = () => {
 
   return (
     <Container>
-      <div className="mt-25 flex flex-row gap-[76px] justify-evenly items-center ">
+      <div className="mt-25 flex flex-row  justify-evenly items-center ">
         {/* content section */}
         <div className="flex flex-col   items-start w-full max-w-[630px] ms-[120px] gap-4">
           <p className=" text-[56px] leading-[1.2]">
