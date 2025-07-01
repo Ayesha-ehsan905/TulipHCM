@@ -18,8 +18,11 @@
 
 
 
+
   /* gradients */
   --circle-gradient: 135deg, rgba(22, 161, 182, 0) 0%, #16A1B6 100%;
+  --circle-gradient-red: 135deg, #F07167 0%, rgba(240, 113, 103, 0) 100%;
+
 
 
 }
@@ -36,6 +39,7 @@ body {
   font-family: var(--font-esrebond), Arial,
     Helvetica,
     sans-serif;
+  overflow-x: hidden;
 }
 
 /* font family Nuniton */
