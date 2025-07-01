@@ -11,6 +11,11 @@
   --color-primary: #29282A;
   --color-orange: #F87315;
   --color-tulip-blue: #47A3FF;
+  --color-light-orange: #F873151F;
+  --color-light-gray: #F5F5F5;
+  --color-orchid: #E687E4;
+  --color-accent-green: #8CD7793D;
+
 
 
   /* gradients */
@@ -28,7 +33,9 @@
 body {
   background: var(--background);
   color: var(--color-primary);
-  font-family: var(--font-esrebond), Arial, Helvetica, sans-serif;
+  font-family: var(--font-esrebond), Arial,
+    Helvetica,
+    sans-serif;
 }
 
 /* font family Nuniton */

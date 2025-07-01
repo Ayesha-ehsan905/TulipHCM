@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <div className="relative">
-        <div className="absolute top-[-230px] left-[-180px] w-[922px] h-[922px] rounded-[461px] bg-linear-(--circle-gradient) opacity-[0.06]" />
+        <div className="absolute top-[-330px] left-[-153px] w-[922px] h-[922px] rounded-[461px] bg-linear-(--circle-gradient) opacity-[0.06]" />
       </div>
       <div
         className={clsx(
