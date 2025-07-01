@@ -10,3 +10,4 @@ export { default as CalendarIcon } from "./Calendar";
 export { default as StructuredIcon } from "./Structured";
 export { default as SmartIcon } from "./Smart";
 export { default as AnalyticsIcon } from "./Analytics";
+export { default as DifferentAccentMarkIcon } from "./DifferentAccentMark";

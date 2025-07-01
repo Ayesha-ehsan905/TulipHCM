@@ -6,9 +6,6 @@ import { CAPABILITIES_FEATURES } from "@/utilis/constant";
 const CapabilitiesSection = () => {
   return (
     <>
-      <div className="relative ">
-        <div className=" z-[-10] absolute top-[-140px] left-[79%] w-[922px] h-[922px] rounded-full bg-linear-(--circle-gradient-red) opacity-[0.04]" />
-      </div>
       <Container>
         {/* capabilities section text */}
         <section className="flex flex-col w-full max-w-[846px] items-center gap-4 mx-auto mt-[273px]">

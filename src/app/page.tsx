@@ -1,16 +1,20 @@
 import CapabilitiesSection from "@/components/CapabilitiesSection";
 import HeroSection from "@/components/HeroSection";
+import MakesTulipDifferent from "@/components/MakesTulipDifferent";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
-      {/* <div className="absolute top-[-230px] left-[-180px] w-[922px] h-[922px]  rounded-[461px] bg-linear-(--circle-gradient) opacity-[0.06]" /> */}
-
       <Navbar />
-      <HeroSection />
-      <CapabilitiesSection />
-      <HeroSection />
+      <div className="relative overflow-hidden">
+        {/* Background Circle (Behind Hero and Capabilities) */}
+        <div className="absolute top-[58%] left-[75%] translate-y-[-60%] w-[922px] h-[922px] rounded-full bg-linear-(--circle-gradient-red) opacity-[0.06] z-[-10] " />
+
+        <HeroSection />
+        <CapabilitiesSection />
+      </div>
+      <MakesTulipDifferent />
     </>
   );
 }
