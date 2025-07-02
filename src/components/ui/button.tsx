@@ -8,9 +8,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        filled: "bg-tulip-blue text-white",
+        filled: "bg-accent-blue text-white",
         outline: "border-2 border-solid border-orange",
-        blueFilled: "border-2 border-solid border-tulip-blue ",
+        blueFilled: "border-2 border-solid border-accent-blue ",
       },
       size: {
         default: "h-9 px-4 py-2",

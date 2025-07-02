@@ -18,3 +18,8 @@ export { default as ThreeIcon } from "./Three";
 export { default as StarIcon } from "./Star";
 export { default as CrownIcon } from "./Crown";
 export { default as QuotationIcon } from "./Quotation";
+export { default as HumanFirstIcon } from "./HumanFirst";
+export { default as SpeedWithPurposeIcon } from "./SpeedWithPurpose";
+export { default as SimplicityIcon } from "./Simplicity";
+export { default as PartnershipIcon } from "./Partnership";
+export { default as BeawareByDesignIcon } from "./BeawareByDesign";

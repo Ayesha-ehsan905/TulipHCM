@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
 import MakesTulipDifferent from "@/components/MakesTulipDifferent";
 import Navbar from "@/components/Navbar";
+import OurValues from "@/components/OurValues";
 import WhyItWorks from "@/components/ui/WhyItWorks";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <HowItWorks />
       <WhyItWorks />
       <AboutUs />
+      <OurValues />
     </>
   );
 }

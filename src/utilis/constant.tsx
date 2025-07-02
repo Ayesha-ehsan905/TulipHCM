@@ -89,3 +89,30 @@ export const STEPS = [
     icon: ThreeIcon,
   },
 ];
+export const FEATURES = [
+  {
+    title: "Human-first",
+    description:
+      "We prioritize real people, not just data points, in every product decision.",
+  },
+  {
+    title: "Speed with purpose",
+    description:
+      "Tulip helps teams move quickly, while staying aligned and intentional.",
+  },
+  {
+    title: "Simplicity that scales",
+    description:
+      "We build tools that feel light and intuitive, even as your organization grows.",
+  },
+  {
+    title: "Bias-aware by design",
+    description:
+      "Structured, inclusive processes aren't a feature, they're our foundation.",
+  },
+  {
+    title: "Built in partnership",
+    description:
+      "We shape our roadmap through direct conversations with the teams who use Tulip every day.",
+  },
+];
