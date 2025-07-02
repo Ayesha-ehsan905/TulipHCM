@@ -44,7 +44,7 @@ const MakesTulipDifferent = () => {
             alt="Pink Curve Background"
             width={1448}
             height={600}
-            className="w-full h-[600px] object-contain"
+            className="w-full h-full object-contain"
             priority
           />
         </div>

@@ -11,3 +11,7 @@ export { default as StructuredIcon } from "./Structured";
 export { default as SmartIcon } from "./Smart";
 export { default as AnalyticsIcon } from "./Analytics";
 export { default as DifferentAccentMarkIcon } from "./DifferentAccentMark";
+export { default as DecisionAccentIcon } from "./DecisionAccent";
+export { default as OneIcon } from "./One";
+export { default as TwoIcon } from "./Two";
+export { default as ThreeIcon } from "./Three";

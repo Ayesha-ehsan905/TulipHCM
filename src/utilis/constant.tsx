@@ -2,9 +2,12 @@ import {
   AnalyticsIcon,
   CalendarIcon,
   CommunityIcon,
+  OneIcon,
   RoleCreationIcon,
   SmartIcon,
   StructuredIcon,
+  ThreeIcon,
+  TwoIcon,
 } from "@/components/icons";
 
 export const NAV_ITEMS = [
@@ -63,4 +66,26 @@ export const CAPABILITIES_FEATURES = [
   },
 ];
 
-// Feature card data for the bottom row
+export const STEPS = [
+  {
+    number: "1",
+    title: "Create Roles with Clarity and Context",
+    description:
+      "Our AI-enhanced templates help define roles with real substance cutting down on revisions and rework later.",
+    icon: OneIcon,
+  },
+  {
+    number: "2",
+    title: "Run Interviews That Flow Naturally",
+    description:
+      "Tulip builds structured interview plans and intelligently nudges your team to keep the process moving.",
+    icon: TwoIcon,
+  },
+  {
+    number: "3",
+    title: "Make Decisions with Confidence",
+    description:
+      "Candidate feedback is organized, structured, and summarized so you can trust your signals, not your gut alone.",
+    icon: ThreeIcon,
+  },
+];

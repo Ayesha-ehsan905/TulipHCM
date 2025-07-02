@@ -1,7 +1,9 @@
 import CapabilitiesSection from "@/components/CapabilitiesSection";
 import HeroSection from "@/components/HeroSection";
+import HowItWorks from "@/components/HowItWorks";
 import MakesTulipDifferent from "@/components/MakesTulipDifferent";
 import Navbar from "@/components/Navbar";
+import WhyItWorks from "@/components/ui/WhyItWorks";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
         <CapabilitiesSection />
       </div>
       <MakesTulipDifferent />
+      <HowItWorks />
+      <WhyItWorks />
     </>
   );
 }
