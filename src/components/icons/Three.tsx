@@ -22,8 +22,8 @@ const Three: React.FC<SVGProps<SVGSVGElement>> = () => {
           y2="113.03"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#47A3FF" />
-          <stop offset="1" stop-color="#47A3FF" stop-opacity="0" />
+          <stop stopColor="#47A3FF" />
+          <stop offset="1" stopColor="#47A3FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
