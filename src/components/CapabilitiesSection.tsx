@@ -25,7 +25,7 @@ const CapabilitiesSection = () => {
                 <span className="font-semibold">Decisions.</span>{" "}
               </span>
             </h1>
-            <p className="text-[16px] text-center font-nunito font-medium">
+            <p className="text-[16px] text-center font-nunito font-semibold">
               Tulip blends AI and human intelligence to streamline the hiring
               process, without sacrificing clarity or control. From job creation
               to final offer, we help teams move faster, make better decisions,
