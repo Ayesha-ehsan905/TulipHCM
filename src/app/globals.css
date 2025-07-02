@@ -20,6 +20,9 @@
   --color-accent-tulip: #AF6DE5;
   --color-light-purple: #9B7AF51F;
   --color-purple: #9B7AF5;
+  --color-light-gray-transparent: #E0E0E01F;
+  --color-light-gray: #E0E0E0;
+
 
 
 
@@ -51,7 +54,7 @@ body {
 
 @font-face {
   font-family: "Nunito";
-  src: url("/font/Nunito-Light.ttf") format("truetype");
+  src: url("/font/Nunito/Nunito-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }

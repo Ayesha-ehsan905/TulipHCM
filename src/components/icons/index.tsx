@@ -16,3 +16,5 @@ export { default as OneIcon } from "./One";
 export { default as TwoIcon } from "./Two";
 export { default as ThreeIcon } from "./Three";
 export { default as StarIcon } from "./Star";
+export { default as CrownIcon } from "./Crown";
+export { default as QuotationIcon } from "./Quotation";
