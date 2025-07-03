@@ -4,7 +4,7 @@ import { CrownIcon, QuotationIcon, WishedUnderlineIcon } from "./icons";
 
 const AboutUs = () => {
   return (
-    <div className="relative w-full overflow-hidden mt-40  ">
+    <div className="relative w-full overflow-hidden mt-40  " id="About">
       {/* Pink background curve image */}
       <div className="w-[100vw] h-[110vh]">
         <Image

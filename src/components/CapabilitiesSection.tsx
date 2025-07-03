@@ -39,7 +39,7 @@ const CapabilitiesSection = () => {
             {CAPABILITIES_FEATURES.map((feature, index) => (
               <div
                 key={`top-feature-${index}`}
-                className={`flex flex-col items-start gap-6 p-5 rounded-2xl overflow-hidden relative flex-1 ${feature.bgClass}`}
+                className={`flex flex-col items-start px-5 gap-6  rounded-2xl overflow-hidden relative flex-1 ${feature.bgClass}`}
               >
                 {/* Glow effect */}
                 {feature.glowColor && (
@@ -47,12 +47,12 @@ const CapabilitiesSection = () => {
                     className={`absolute w-[186px] h-[186px] top-[-93px] left-[251px] ${feature.glowColor} rounded-[93px] blur-[200px] opacity-80`}
                   />
                 )}
-                <span>{<feature.icon />}</span>{" "}
-                <div className="flex flex-col justify-between h-full max-w-[340px]">
-                  <h3 className="z-10 font-semibold text-xl mt-6 ">
+                <span className="pt-6">{<feature.icon />}</span>{" "}
+                <div className="flex flex-col justify-between  h-full max-w-[340px] pb-6 gap-4">
+                  <h3 className="z-10 font-semibold text-xl  ">
                     {feature.title}
                   </h3>
-                  <p className=" z-10 text-base font-nunito pb-5">
+                  <p className=" z-10 text-base font-nunito ">
                     {feature.description}
                   </p>
                 </div>

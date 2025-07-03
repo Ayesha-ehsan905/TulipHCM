@@ -6,6 +6,7 @@ import Container from "./Container";
 import { NAV_ITEMS } from "@/utilis/constant";
 import { Button } from "./ui/button";
 import clsx from "clsx"; // Optional utility for class merging
+import { scrollToElement } from "@/utilis/functions";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,7 +45,11 @@ const Navbar = () => {
 
             <div className="flex flex-row gap-12 items-center">
               {NAV_ITEMS.map((item, index) => (
-                <span key={index} className="text-[16px] font-medium">
+                <span
+                  key={index}
+                  className="text-[16px] font-medium cursor-pointer"
+                  onClick={(e) => scrollToElement(e, item.id)}
+                >
                   {item.label}
                 </span>
               ))}

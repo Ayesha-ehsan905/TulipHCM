@@ -16,9 +16,9 @@ import {
 } from "@/components/icons";
 
 export const NAV_ITEMS = [
-  { label: "About", href: "#" },
-  { label: "Product", href: "#" },
-  { label: "How It Works", href: "#" },
+  { label: "About", id: "About" },
+  { label: "Product", id: "Product" },
+  { label: "How It Works", id: "Work" },
 ];
 
 export const CAPABILITIES_FEATURES = [

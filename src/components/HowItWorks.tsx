@@ -7,7 +7,10 @@ const HowItWorks = () => {
   return (
     <>
       <Container>
-        <section className="flex flex-col w-full max-w-6xl items-center gap-4 mx-auto mt-[181px]">
+        <section
+          className="flex flex-col w-full max-w-6xl items-center gap-4 mx-auto mt-[181px]"
+          id="Work"
+        >
           {/* heading    */}
 
           <div className=" border text-base  bg-light-purple text-purple border-purple rounded-[80px] px-4 py-2 font-medium">
@@ -37,7 +40,7 @@ const HowItWorks = () => {
                     <h3 className=" font-semibold  text-xl leading-[120%]">
                       {step.title}
                     </h3>
-                    <p className="self-stretch [font-family:'Nunito',Helvetica] font-semibold text-[#29282a] text-base leading-[19.2px]">
+                    <p className=" font-nunito font-semibold text-[#29282a] text-base leading-[120%]">
                       {step.description}
                     </p>
                   </div>
