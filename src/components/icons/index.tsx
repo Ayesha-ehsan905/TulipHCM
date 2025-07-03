@@ -27,3 +27,5 @@ export { default as PrincipleUnderlineIcon } from "./PrincipleUnderline";
 export { default as WishedUnderlineIcon } from "./WishedUnderline";
 export { default as TwitterIcon } from "./Twitter";
 export { default as LinkedInIcon } from "./LinkedIn";
+export { default as CloseMenuIcon } from "./CloseMenu";
+export { default as OpenMenuIcon } from "./OpenMenu";

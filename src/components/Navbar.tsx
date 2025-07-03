@@ -5,11 +5,14 @@ import { useEffect, useState } from "react";
 import Container from "./Container";
 import { NAV_ITEMS } from "@/utilis/constant";
 import { Button } from "./ui/button";
-import clsx from "clsx"; // Optional utility for class merging
+import clsx from "clsx";
 import { scrollToElement } from "@/utilis/functions";
+import { CloseMenuIcon, OpenMenuIcon } from "./icons";
+import MobileNavbar from "./MobileNavbar";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,52 +24,64 @@ const Navbar = () => {
   }, []);
 
   return (
-    <>
-      <div className="relative">
-        <div className="absolute top-[-200px] left-[-153px] w-[922px] h-[922px] rounded-[461px] bg-linear-(--circle-gradient) opacity-[0.06]" />
-      </div>
-      <div
-        className={clsx(
-          "fixed w-full top-0 z-50 transition-all duration-300",
-          isScrolled ? "bg-white shadow-sm" : "bg-transparent"
-        )}
-      >
-        <Container>
-          <div className="flex flex-row justify-between mx-20 my-5 ">
-            <div className="w-[145px] h-[50px]">
-              <Image
-                src="/images/Logo.png"
-                alt="Company logo"
-                width={144}
-                height={50}
-                className="w-full h-full object-contain"
-              />
-            </div>
-
-            <div className="flex flex-row gap-12 items-center">
-              {NAV_ITEMS.map((item, index) => (
-                <span
-                  key={index}
-                  className="text-[16px] font-medium cursor-pointer"
-                  onClick={(e) => scrollToElement(e, item.id)}
-                >
-                  {item.label}
-                </span>
-              ))}
-            </div>
-
-            <div className="flex items-center gap-6">
-              <Button variant="outline" className="px-4 py-3">
-                Request a Demo
-              </Button>
-              <Button variant="filled" className="px-4 py-3">
-                Get In Touch
-              </Button>
-            </div>
+    <div
+      className={clsx(
+        "fixed w-full top-0 z-50 transition-all duration-300",
+        isScrolled ? "bg-white shadow-sm" : "bg-transparent"
+      )}
+    >
+      <Container>
+        <div className="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+          {/* Logo */}
+          <div className="w-[130px] h-[40px] sm:w-[145px] sm:h-[50px]">
+            <Image
+              src="/images/Logo.png"
+              alt="Company logo"
+              width={144}
+              height={50}
+              className="w-full h-full object-contain"
+            />
           </div>
-        </Container>
-      </div>
-    </>
+
+          {/* Desktop nav */}
+          <div className="hidden md:flex items-center gap-12">
+            {NAV_ITEMS.map((item, index) => (
+              <span
+                key={index}
+                className="text-[16px] font-medium cursor-pointer"
+                onClick={(e) => scrollToElement(e, item.id)}
+              >
+                {item.label}
+              </span>
+            ))}
+          </div>
+
+          {/* Desktop buttons */}
+          <div className="hidden md:flex items-center gap-6">
+            <Button variant="outline" className="px-4 py-3">
+              Request a Demo
+            </Button>
+            <Button variant="filled" className="px-4 py-3">
+              Get In Touch
+            </Button>
+          </div>
+
+          {/* Mobile menu toggle */}
+          <div className="md:hidden">
+            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+              {isMobileMenuOpen ? <CloseMenuIcon /> : <OpenMenuIcon />}
+            </button>
+          </div>
+        </div>
+      </Container>
+
+      {isMobileMenuOpen && (
+        <MobileNavbar
+          visible={isMobileMenuOpen}
+          closeMenu={() => setIsMobileMenuOpen(false)}
+        />
+      )}
+    </div>
   );
 };
 
