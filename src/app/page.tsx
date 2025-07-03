@@ -1,6 +1,7 @@
 import AboutUs from "@/components/AboutUs";
 import CapabilitiesSection from "@/components/CapabilitiesSection";
 import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
 import MakesTulipDifferent from "@/components/MakesTulipDifferent";
@@ -24,7 +25,13 @@ export default function Home() {
       <WhyItWorks />
       <AboutUs />
       <OurValues />
-      <ContactForm />
+      <div className="relative overflow-hidden">
+        {/* Background Circle (Behind Hero and Capabilities) */}
+        <div className="absolute top-[75%] -left-[48%] translate-y-[-60%] w-[922px] h-[922px] rounded-full bg-linear-(--circle-gradient-red) opacity-[0.07] z-[-10]  2xl:top-[75%] 2xl:-left-[38%]" />
+
+        <ContactForm />
+        <Footer />
+      </div>
     </>
   );
 }

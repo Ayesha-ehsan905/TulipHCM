@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { CrownIcon, QuotationIcon } from "./icons";
-import WishedUnderline from "./icons/WishedUnderline";
+import { CrownIcon, QuotationIcon, WishedUnderlineIcon } from "./icons";
 
 const AboutUs = () => {
   return (
@@ -31,7 +30,7 @@ const AboutUs = () => {
             </span>{" "}
             We Always <br />
             <span className="relative inline-block">
-              <WishedUnderline className="absolute  top-[75%] left-[6%] " />
+              <WishedUnderlineIcon className="absolute  top-[75%] left-[6%] " />
               <span>Wished</span>
             </span>{" "}
             We Had.

@@ -1,5 +1,6 @@
 import { FEATURES_FIRST_ROW, FEATURES_SECOND_ROW } from "@/utilis/constant";
 import Container from "./Container";
+import { PrincipleUnderlineIcon } from "./icons";
 
 export default function OurValues() {
   return (
@@ -9,7 +10,12 @@ export default function OurValues() {
           Our Values{" "}
         </p>
         <p className="font-medium text-[40px]">
-          Our 5 Principles of Core Value
+          Our 5{" "}
+          <span className="relative inline-block">
+            <PrincipleUnderlineIcon className="absolute top-[75%] left-[12%] " />
+            <span className="font-semibold">Principles </span>
+          </span>{" "}
+          of Core Value
         </p>
 
         <div className="flex flex-row  gap-10 mt-16 ">
