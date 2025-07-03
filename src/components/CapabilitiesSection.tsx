@@ -8,15 +8,15 @@ const CapabilitiesSection = () => {
     <>
       <Container>
         {/* capabilities section text */}
-        <section className="flex flex-col w-full max-w-[846px] items-center gap-4 mx-auto mt-[273px]">
+        <section className="flex flex-col w-full max-w-[846px] items-center gap-4 mx-auto mt-[180px] md-mt-[273px] px-[20px] md:px-0">
           <div className=" border text-base  bg-light-orange text-orange border-orange rounded-[80px] px-4 py-2 font-normal">
             Key Capabilities
           </div>
-          <div className="flex justify-center flex-col items-center gap-4">
-            <h1 className="text-[40px] font-medium  text-center font-esbuild ">
+          <div className="flex justify-center flex-col items-start md:items-center gap-4">
+            <h1 className="text-[32px] md:text-[40px] font-medium  text-start md:text-center font-esbuild ">
               An ATS That <span className="font-semibold">Supports</span> How{" "}
               <span className="relative inline-block">
-                <PeopleAccentMarkIcon className="absolute  top-0 left-[75%] " />
+                <PeopleAccentMarkIcon className="absolute -top-[8%] md-top-0 left-[75%] " />
                 <span className="font-semibold">People</span>
               </span>{" "}
               Actually Make{" "}
@@ -25,7 +25,7 @@ const CapabilitiesSection = () => {
                 <span className="font-semibold">Decisions.</span>{" "}
               </span>
             </h1>
-            <p className="text-[16px] text-center font-nunito font-semibold">
+            <p className="text-[16px] text-start md:text-center font-nunito font-semibold">
               Tulip blends AI and human intelligence to streamline the hiring
               process, without sacrificing clarity or control. From job creation
               to final offer, we help teams move faster, make better decisions,
@@ -34,7 +34,7 @@ const CapabilitiesSection = () => {
           </div>
         </section>
         {/* grid */}
-        <div className="max-w-5xl mx-auto mt-16">
+        <div className="max-w-5xl mx-auto mt-16 px-[20px] md:px-0">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {CAPABILITIES_FEATURES.map((feature, index) => (
               <div

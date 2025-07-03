@@ -44,7 +44,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-12">
+          <div className="hidden lg:flex items-center gap-12">
             {NAV_ITEMS.map((item, index) => (
               <span
                 key={index}
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop buttons */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             <Button variant="outline" className="px-4 py-3">
               Request a Demo
             </Button>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu toggle */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               {isMobileMenuOpen ? <CloseMenuIcon /> : <OpenMenuIcon />}
             </button>
