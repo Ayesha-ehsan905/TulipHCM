@@ -46,7 +46,7 @@ const AboutUs = () => {
                 <span>Story</span>
               </span>
             </p>
-            <p className="font-nunito font-semibold text-base leading-[1.2] text-white  text-start">
+            <p className="font-nunito font-semibold text-base leading-[120%] text-white  text-start">
               After leading HR and product teams in high-growth companies, we
               saw the same problems over and over: messy processes, siloed
               communication, and tools that created more noise than clarity.
