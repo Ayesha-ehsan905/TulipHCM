@@ -1,5 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import CapabilitiesSection from "@/components/CapabilitiesSection";
+import ContactForm from "@/components/ContactForm";
 import HeroSection from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
 import MakesTulipDifferent from "@/components/MakesTulipDifferent";
@@ -23,6 +24,7 @@ export default function Home() {
       <WhyItWorks />
       <AboutUs />
       <OurValues />
+      <ContactForm />
     </>
   );
 }
