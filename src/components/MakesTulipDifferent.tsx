@@ -38,13 +38,13 @@ const MakesTulipDifferent = () => {
       </section> */}
       <div className="relative w-full overflow-hidden mt-50 mb-47 ">
         {/* Pink background curve image */}
-        <div className="w-[100vw] h-[90vh]">
+        <div className="w-[100vw] h-[80vh]">
           <Image
             src="/images/tulip-curve-bg.png"
             alt="Pink Curve Background"
             width={1448}
             height={600}
-            className="w-[100vw] h-[90vh] "
+            className="w-[100vw] h-[80vh] "
             priority
           />
         </div>
