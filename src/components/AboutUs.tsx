@@ -39,7 +39,7 @@ const AboutUs = () => {
 
         <div className=" flex flex-col items-center justify-center mt-12 lg:flex-row">
           <div className="flex flex-col items-start justify-center gap-4  max-w-[530px]">
-            <p className="text-[40px] font-medium leading-[120%] text-white ">
+            <p className="text-[32px] font-medium leading-[120%] text-white lg:text-[40px] ">
               Our{" "}
               <span className="relative inline-block">
                 <QuotationIcon className="absolute  -top-[18%] left-[88%] " />

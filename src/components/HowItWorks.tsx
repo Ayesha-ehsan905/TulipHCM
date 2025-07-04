@@ -37,7 +37,7 @@ const HowItWorks = () => {
                 <div className="flex items-center gap-7 p-0">
                   <span>{<step.icon />}</span>
                   <div className="flex flex-col items-start gap-4 wrap">
-                    <h3 className=" font-semibold  text-xl leading-[120%]">
+                    <h3 className=" font-semibold  text-base leading-[120%] lg:text-xl ">
                       {step.title}
                     </h3>
                     <p className=" font-nunito font-semibold text-[#29282a] text-base leading-[120%]">

@@ -8,7 +8,7 @@ const WhyItWorks = () => {
     <Container>
       <section className="flex flex-col justify-between w-full max-w-6xl items-center gap-4 mx-auto mt-16 px-5 lg:px-0 lg:flex-row">
         <div className=" flex flex-col gap-4 max-w-[520px]">
-          <p className="font-medium text-[40px] leading-[100%]">
+          <p className="font-medium text-[32px] leading-[100%] lg:text-[40px]">
             Why It{" "}
             <span className="relative inline-block">
               <StarIcon className="absolute -top-[40%] left-[100%] " />
