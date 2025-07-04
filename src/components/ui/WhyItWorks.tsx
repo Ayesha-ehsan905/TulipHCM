@@ -6,7 +6,7 @@ import { StarIcon } from "../icons";
 const WhyItWorks = () => {
   return (
     <Container>
-      <section className="flex flex-row justify-between w-full max-w-6xl items-center gap-4 mx-auto mt-16">
+      <section className="flex flex-col justify-between w-full max-w-6xl items-center gap-4 mx-auto mt-16 px-5 lg:px-0 lg:flex-row">
         <div className=" flex flex-col gap-4 max-w-[520px]">
           <p className="font-medium text-[40px] leading-[100%]">
             Why It{" "}
@@ -20,13 +20,13 @@ const WhyItWorks = () => {
             right. Tulip brings both together in one clean, powerful platform.
           </p>
         </div>
-        <div className="w-[428px] h-[428px] ">
+        <div className="lg:w-[428px] lg:h-[428px] ">
           <Image
             src="/images/work_img.png"
             alt="hero section image"
             width={428}
             height={428}
-            className="w-[428px] h-[428px] object-contain  "
+            className="lg:w-[428px] lg:h-[428px] object-contain  "
           />
         </div>
       </section>

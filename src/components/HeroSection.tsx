@@ -15,7 +15,7 @@ const HeroSection = () => {
     <Container>
       <section className="mt-45 flex flex-col xl:flex-row  justify-evenly items-center ">
         {/* content section */}
-        <div className="flex flex-col   items-start w-full  md:max-w-[630px]  px-[20px] md:px-0 xl:ms-[170px] xl:me-0 gap-4  2xl:ms-[120px]">
+        <div className="flex flex-col   items-start w-full  md:max-w-[630px]  px-5 lg:px-0 xl:ms-[170px] xl:me-0 gap-4  2xl:ms-[120px]">
           <p className="text-[32px] md:text-[56px] leading-[1.2]">
             Hiring should be{" "}
             <span className="relative inline-block">
@@ -29,7 +29,7 @@ const HeroSection = () => {
             &nbsp;
             <span className=" font-semibold leading-[67.2px]">&amp;</span>{" "}
             <span className="relative inline-block">
-              <UnderlineIcon className=" absolute  top-[75%] left-[45%] md:left-[55%] " />
+              <UnderlineIcon className=" absolute  top-[75%] left-[25%] md:left-[55%] " />
               <span className=" font-semibold">Customizable.</span>
             </span>
           </p>
@@ -58,7 +58,7 @@ const HeroSection = () => {
           </div>
         </div>
         {/* right image */}
-        <div className="w-full h-full max-w-[600px] max-h-[500px] px-[20px] md:px-0">
+        <div className="w-full h-full max-w-[600px] max-h-[500px] px-5 md:px-0">
           <Image
             src="/images/HeroSection.png"
             alt="hero section image"

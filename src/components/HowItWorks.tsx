@@ -17,7 +17,7 @@ const HowItWorks = () => {
             How It Works
           </div>
           <div className="flex justify-center flex-col items-center gap-4">
-            <h1 className="text-[40px] font-medium  text-center font-esbuild ">
+            <h1 className=" text-[32px] lg:text-[40px] font-medium  text-center font-esbuild ">
               From Job Req To Offer,{" "}
               <span className="relative inline-block">
                 <DecisionAccentIcon className="absolute  top-[76%] left-[7%] " />
@@ -28,11 +28,11 @@ const HowItWorks = () => {
           </div>
           {/* Steps */}
 
-          <div className="flex items-center justify-center gap-6 w-full  mx-auto mt-16">
+          <div className="flex items-center justify-center gap-6 w-full  mx-auto mt-16 flex-col lg:flex-row px-5 lg:px-0 gap-y-7">
             {STEPS.map((step, index) => (
               <div
                 key={index}
-                className="flex-1 bg-transparent border-none shadow-none w-[152px]"
+                className="flex-1 bg-transparent border-none shadow-none lg:w-[152px]"
               >
                 <div className="flex items-center gap-7 p-0">
                   <span>{<step.icon />}</span>

@@ -38,19 +38,19 @@ const MakesTulipDifferent = () => {
       </section> */}
       <div className="relative w-full overflow-hidden mt-50 mb-47 ">
         {/* Pink background curve image */}
-        <div className="w-[100vw] h-[80vh]">
+        <div className="w-[100vw] h-[80vh] bg-light-red lg:bg-transparent">
           <Image
             src="/images/tulip-curve-bg.png"
             alt="Pink Curve Background"
             width={1448}
             height={600}
-            className="w-[100vw] h-[80vh] "
+            className="w-[100vw] h-[80vh] hidden lg:block "
             priority
           />
         </div>
         {/* Content on top */}
-        <div className="absolute inset-0 z-10 flex items-center justify-evenly ps-44 pe-24 gap-15">
-          <div className="flex flex-col items-start justify-center gap-4  max-w-[530px]">
+        <div className="absolute inset-0 z-10 flex flex-col lg:flex-row items-center justify-evenly px-5 pt-12 lg:px-0 lg:pt-0 lg:ps-44 lg:pe-24 gap-15">
+          <div className="flex flex-col items-start justify-center gap-4  max-w-[530px] pt:[">
             <p className="text-[40px] font-medium leading-[120%] text-white ">
               What Makes Tulip{" "}
               <span className="relative inline-block">
@@ -58,7 +58,7 @@ const MakesTulipDifferent = () => {
                 <span className=" font-semibold">Different</span>
               </span>
             </p>
-            <p className="font-nunito font-semibold text-base leading-[1.2] text-white  text-center">
+            <p className="font-nunito font-semibold text-base leading-[1.2] text-white text-start lg:text-center">
               Tulip blends AI and human intelligence to streamline the hiring
               process, without sacrificing clarity or control. From job creation
               to final offer, we help teams move faster, make better decisions,
