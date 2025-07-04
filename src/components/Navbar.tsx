@@ -78,7 +78,10 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <MobileNavbar
           visible={isMobileMenuOpen}
-          closeMenu={() => setIsMobileMenuOpen(false)}
+          closeMenu={() => {
+            document.body.style.overflow = "";
+            setIsMobileMenuOpen(false);
+          }}
         />
       )}
     </div>

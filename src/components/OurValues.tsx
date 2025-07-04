@@ -5,11 +5,11 @@ import { PrincipleUnderlineIcon } from "./icons";
 export default function OurValues() {
   return (
     <Container>
-      <section className="flex flex-col w-full max-w-5xl items-center gap-4 mx-auto mt-35">
+      <section className="flex flex-col w-full max-w-5xl items-center gap-4 mx-auto mt-35  px-5 lg:px-0">
         <p className=" border text-base  bg-light-blue text-accent-blue border-accent-blue rounded-[80px] px-4 py-2 font-normal">
           Our Values{" "}
         </p>
-        <p className="font-medium text-[40px]">
+        <p className="font-medium  text-[32px] lg:text-[40px]">
           Our 5{" "}
           <span className="relative inline-block">
             <PrincipleUnderlineIcon className="absolute top-[75%] left-[12%] " />
@@ -18,7 +18,7 @@ export default function OurValues() {
           of Core Value
         </p>
 
-        <div className="flex flex-row  gap-10 mt-16 ">
+        <div className="flex flex-col  gap-10 mt-16  lg:flex-row">
           {FEATURES_FIRST_ROW.map((feature) => (
             <div
               key={feature.title}
@@ -33,7 +33,7 @@ export default function OurValues() {
           ))}
         </div>
 
-        <div className="flex flex-row   mt-10 gap-10 ">
+        <div className="flex flex-col   mt-10 gap-10  lg:flex-row">
           {FEATURES_SECOND_ROW.map((feature) => (
             <div
               key={feature.title}

@@ -8,8 +8,8 @@ const Footer = () => {
 
   return (
     <Container>
-      <footer className="flex flex-col w-full items-center gap-4 px-20 mt-16 mb-6">
-        <div className="relative w-full flex items-center justify-between h-8">
+      <footer className="flex flex-col w-full items-center gap-4 px-5 mt-16 mb-6 md:px-20">
+        <div className="relative w-full flex items-center justify-between h-8 ">
           {/* Logo section */}
           <div className="flex items-center h-8">
             <div className="w-[100px] h-[32px]">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           {/* Social media icons */}
-          <div className="flex items-center gap-4">
+          <div className=" items-center gap-4 soical-icons ">
             <span>
               <LinkedInIcon />
             </span>

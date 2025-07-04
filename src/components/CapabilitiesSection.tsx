@@ -8,7 +8,10 @@ const CapabilitiesSection = () => {
     <>
       <Container>
         {/* capabilities section text */}
-        <section className="flex flex-col w-full max-w-[846px] items-center gap-4 mx-auto mt-[180px] md-mt-[273px] px-5 lg:px-0">
+        <section
+          className="flex flex-col w-full max-w-[846px] items-center gap-4 mx-auto mt-[180px] md-mt-[273px] px-5 lg:px-0"
+          id="Product"
+        >
           <div className=" border text-base  bg-light-orange text-orange border-orange rounded-[80px] px-4 py-2 font-normal">
             Key Capabilities
           </div>

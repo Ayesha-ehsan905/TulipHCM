@@ -30,6 +30,7 @@
 
 
 
+
   /* gradients */
   --circle-gradient: 135deg, rgba(22, 161, 182, 0) 0%, #16A1B6 100%;
   --circle-gradient-red: 135deg, #F07167 0%, rgba(240, 113, 103, 0) 100%;
@@ -136,4 +137,14 @@ body {
 
 .font-nunito {
   font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.soical-icons {
+  display: none;
+}
+
+@media (min-width: 360px) {
+  .soical-icons {
+    display: flex;
+  }
 }

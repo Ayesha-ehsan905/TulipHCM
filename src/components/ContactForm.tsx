@@ -5,7 +5,7 @@ export default function ContactForm() {
   return (
     <Container>
       <section className="  flex flex-row items-center justify-center  w-full max-w-4xl mx-auto mt-55">
-        <div className="bg-light-red rounded-3xl   w-full ">
+        <div className="bg-light-red    w-full md:rounded-3xl">
           <div className="grid md:grid-cols-2 gap-8 p-6 items-start">
             {/* Left side - Text content */}
             <div className="flex flex-col gap-4 basis-1/2">
@@ -23,13 +23,13 @@ export default function ContactForm() {
             {/* Right side - Form */}
             <div className="flex flex-col gap-2 basis-1/2">
               {/* Name and Email row */}
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
                 <Textfeild label="Name" />
                 <Textfeild label="Email" type="email" />
               </div>
 
               {/* Role and Company row */}
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1  gap-3 md:grid-cols-2">
                 <div className="relative w-full">
                   <select
                     name="role"

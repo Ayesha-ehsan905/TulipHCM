@@ -15,12 +15,14 @@ const MobileNavbar = ({ visible, closeMenu }: MobileMenuProps) => {
 
   useEffect(() => {
     if (visible) {
+      console.log("outside");
       document.body.style.overflow = "hidden";
       setShouldRender(true);
       setTimeout(() => setIsAnimating(true), 10); // Start animation after render
     } else {
-      setIsAnimating(false);
       document.body.style.overflow = "";
+      setIsAnimating(false);
+      console.log("insside");
       setTimeout(() => setShouldRender(false), 500); // Matches animation duration
     }
   }, [visible]);
@@ -43,7 +45,7 @@ const MobileNavbar = ({ visible, closeMenu }: MobileMenuProps) => {
 
       {/* Menu Container */}
       <div
-        className={`bg-VampireBlack border border-darkCharcoal backdrop-blur-[80px] flex flex-col justify-between p-5 w-[90%]  h-[80%] rounded-2xl shadow-lg transform transition-transform duration-500 ${
+        className={`bg-white border border-primary backdrop-blur-[80px] flex flex-col justify-between p-5 w-[90%]  h-[80%] rounded-2xl shadow-lg transform transition-transform duration-500 ${
           isAnimating
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0"
