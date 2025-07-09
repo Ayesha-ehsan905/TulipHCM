@@ -6,18 +6,18 @@ const AboutUs = () => {
   return (
     <div className="relative w-full overflow-hidden mt-40  " id="About">
       {/* Pink background curve image */}
-      <div className="w-[100vw] h-[110vh]  bg-primary lg:bg-transparent">
+      <div className="w-[100vw] h-[130vh]  bg-primary lg:bg-transparent about-us-bg-img">
         <Image
           src="/images/About-us.png"
           alt="Pink Curve Background"
           width={1448}
           height={600}
-          className="w-[100vw] h-[110vh] hidden lg:block"
+          className="w-[100vw] h-[130vh] hidden lg:block about-us-bg-img"
           priority
         />
       </div>
       {/* Content on top */}
-      <div className="absolute inset-0 z-10 flex flex-col items-center mt-15 px-5 lg:px-0 lg:mt-35 ">
+      <div className="absolute inset-0 z-10 flex flex-col items-center mt-15 px-5 lg:px-0 lg:mt-25 2xl:mt-35 ">
         <div className="flex flex-col justify-center items-center gap-12   ">
           <div className=" text-center  border text-base  bg-light-gray-transparent text-light-gray border-light-gray-transparent rounded-[80px] px-8 py-2 font-normal">
             About Us{" "}

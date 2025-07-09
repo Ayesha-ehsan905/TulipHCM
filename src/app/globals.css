@@ -148,3 +148,14 @@ body {
     display: flex;
   }
 }
+
+.about-us-bg-img {
+  height: 130vh;
+
+}
+
+@media (min-height: 853px) {
+  .about-us-bg-img {
+    height: 100vh;
+  }
+}
