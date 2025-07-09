@@ -17,7 +17,7 @@ const AboutUs = () => {
         />
       </div>
       {/* Content on top */}
-      <div className="absolute inset-0 z-10 flex flex-col items-center mt-35 px-5 lg:px-0">
+      <div className="absolute inset-0 z-10 flex flex-col items-center mt-15 px-5 lg:px-0 lg:mt-35 ">
         <div className="flex flex-col justify-center items-center gap-12   ">
           <div className=" text-center  border text-base  bg-light-gray-transparent text-light-gray border-light-gray-transparent rounded-[80px] px-8 py-2 font-normal">
             About Us{" "}
@@ -66,7 +66,7 @@ const AboutUs = () => {
               alt="hero section image"
               width={900}
               height={900}
-              className="lg:max-w-[650px] lg:max-h-[650px] "
+              className="pb-10 lg:pb-0 lg:max-w-[650px] lg:max-h-[650px] "
             />
           </div>
         </div>
