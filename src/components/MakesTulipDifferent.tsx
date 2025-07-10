@@ -51,10 +51,10 @@ const MakesTulipDifferent = () => {
         {/* Content on top */}
         <div className="absolute inset-0 z-10 flex flex-col lg:flex-row items-center justify-evenly px-5 pt-12 lg:px-0 lg:pt-0 lg:ps-44 lg:pe-24 gap-15">
           <div className="flex flex-col items-start justify-center gap-4  max-w-[530px] pt:[">
-            <p className="text-[40px] font-medium leading-[120%] text-white ">
+            <p className="text-[32px] md:text-[40px] font-medium leading-[120%] text-white ">
               What Makes Tulip{" "}
               <span className="relative inline-block">
-                <DifferentAccentMarkIcon className="absolute  top-[75%] left-[27%] " />
+                <DifferentAccentMarkIcon className="absolute top-[83%] sm:top-[75%] left-[27%] " />
                 <span className=" font-semibold">Different</span>
               </span>
             </p>

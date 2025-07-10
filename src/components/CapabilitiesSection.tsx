@@ -24,7 +24,7 @@ const CapabilitiesSection = () => {
               </span>{" "}
               Actually Make{" "}
               <span className="relative inline-block">
-                <DecisionUnderlineIcon className="absolute  top-[66%] left-[23%] " />
+                <DecisionUnderlineIcon className="absolute  top-[77%]  left-[10%] sm:left-[23%] sm:top-[66%]  " />
                 <span className="font-semibold">Decisions.</span>{" "}
               </span>
             </h1>

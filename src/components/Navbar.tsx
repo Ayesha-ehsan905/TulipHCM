@@ -68,7 +68,12 @@ const Navbar = () => {
 
           {/* Mobile menu toggle */}
           <div className="lg:hidden">
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+            <button
+              onClick={() => {
+                document.body.style.overflow = "";
+                setIsMobileMenuOpen(!isMobileMenuOpen);
+              }}
+            >
               {isMobileMenuOpen ? <CloseMenuIcon /> : <OpenMenuIcon />}
             </button>
           </div>
