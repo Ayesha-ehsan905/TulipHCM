@@ -25,7 +25,7 @@ const AboutUs = () => {
           <p className="text-white text-[32px] lg:text-[40px] font-medium leading-[120%] text-center">
             We Built The{" "}
             <span className="relative inline-block">
-              <CrownIcon className="absolute  -top-[20%] left-[75%] " />
+              <CrownIcon className="absolute  -top-[33%] left-[75%] sm:-top-[25%]" />
               <span>System</span>
             </span>{" "}
             We Always <br />

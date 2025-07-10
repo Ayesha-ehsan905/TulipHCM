@@ -33,7 +33,7 @@ const Navbar = () => {
       <Container>
         <div className="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           {/* Logo */}
-          <div className="w-[130px] h-[40px] sm:w-[145px] sm:h-[50px]">
+          <div className="w-[100px] h-[40px] sm:w-[145px] sm:h-[50px]">
             <Image
               src="/images/Logo.png"
               alt="Company logo"
