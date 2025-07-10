@@ -20,7 +20,7 @@ const HowItWorks = () => {
             <h1 className=" text-[32px] lg:text-[40px] font-medium  text-center font-esbuild ">
               From Job Req To Offer,{" "}
               <span className="relative inline-block">
-                <DecisionAccentIcon className="absolute  top-[76%] left-[7%] " />
+                <DecisionAccentIcon className="absolute  top-[76%] left-[7%] w-[90%] sm:w-full " />
                 <span className="font-semibold">Without</span>
               </span>{" "}
               The <span className="font-semibold">Chaos.</span>
