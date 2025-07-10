@@ -14,9 +14,10 @@ export default function ContactForm() {
               </h1>
 
               <p className="text-white font-nunito text-base leading-[120%]">
-                Tulip is currently building a small group of forward-thinking
-                teams. If you&apos;re ready to rethink hiring — with speed,
-                clarity, and humanity — we&apos;d love to hear from you.
+                Tulip is currently in early access with a small group of
+                forward-thinking teams. If you&apos;re ready to rethink hiring —
+                with speed, clarity, and humanity — we&apos;d love to hear from
+                you.
               </p>
             </div>
 
